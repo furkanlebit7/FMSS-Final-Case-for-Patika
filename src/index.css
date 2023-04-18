@@ -7,3 +7,11 @@
 .font-star {
   font-family: "Star Wars", sans-serif;
 }
+
+.light-saber {
+  display: block;
+  border-radius: 10px;
+  width: 65px;
+  height: 2px;
+  background: white;
+}

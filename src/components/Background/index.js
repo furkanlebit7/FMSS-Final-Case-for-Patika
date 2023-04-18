@@ -1,12 +1,18 @@
 import React from "react";
 
-const Background = () => {
+const Background = ({ to }) => {
+  const pathname = window.location.pathname.slice(1);
+  console.log(pathname);
   return (
-    <div className="absolute z-0 top-0 right-0 bg-bgDark  bg-cover bg-center ">
-      <h1 className="bg-white text-10xl font-bold font-star mix-blend-screen h-screen w-screen flex items-center justify-center opacity-95 text-center leading-none">
-        STAR
-        <br />
-        WARS
+    <div className="absolute -z-10 top-0 right-0 bg-bgDark dark:bg-bgLight bg-cover bg-center  ">
+      <h1 className="bg-white  text-10xl font-bold font-star mix-blend-screen h-screen w-screen flex items-center justify-center opacity-80 text-center leading-none dark:bg-black dark:text-white dark:mix-blend-darken dark:opacity-80">
+        {!pathname && (
+          <div>
+            STAR
+            <br />
+            WARS
+          </div>
+        )}
       </h1>
     </div>
   );

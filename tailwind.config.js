@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bgMain: "#F6F6F8",
+        bgLightColor: "#F6F6F8",
+        bgDarkColor: "#313131",
         darkMain: "#262626",
-        darkBg: "#313131",
       },
       backgroundImage: {
         bgLight: "url('/src/assets/images/bg7.jpg')",
@@ -15,6 +15,12 @@ module.exports = {
       },
       fontSize: {
         "10xl": "10rem",
+      },
+      boxShadow: {
+        "box-red":
+          "0 0 5px #c20000, 0 0 25px #c20000, 0 0 50px #c20000, 0 0 100px #c20000;",
+        "box-blue":
+          "0 0 5px #0013c2, 0 0 25px #0013c2, 0 0 50px #0013c2, 0 0 100px #0013c2;",
       },
     },
   },
