@@ -1,17 +1,13 @@
-//PACKAGES
-import { useRouteError } from "react-router-dom";
-
 export default function ErrorPage() {
-  const error = useRouteError();
-  console.error(error);
-
   return (
-    <div id="error-page">
-      <h1>Oops!</h1>
-      <p>Sorry, an unexpected error has occurred.</p>
-      <p>
-        <i>{error.statusText || error.message}</i>
-      </p>
+    <div className="flex">
+      <img src={require("../assets/images/notFound.png")} />
+      <div className="font-dokdo">
+        <p className="text-3xl">
+          Wrong page you have come hmm? Fear not! Show you the way, the force
+          will!
+        </p>
+      </div>
     </div>
   );
 }

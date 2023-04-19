@@ -4,8 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
+
 .font-star {
   font-family: "Star Wars", sans-serif;
+}
+.font-dokdo {
+  font-family: "East Sea Dokdo", cursive;
 }
 
 .light-saber {
