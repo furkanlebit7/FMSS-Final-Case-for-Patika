@@ -18,7 +18,7 @@ const Header = () => {
     dispatch(setTheme());
   };
   return (
-    <div className="flex items-center justify-between gap-20 dark:text-white">
+    <div className="flex items-center justify-between sm:gap-10 xl:gap-20  gap-3 ">
       <Sidebar />
       <span className="light-saber shadow-box-blue dark:shadow-box-red flex-1 " />
       <p className="font-star leading-4">
@@ -31,6 +31,7 @@ const Header = () => {
       <button onClick={() => handleTheme()}>
         <img
           className="w-8"
+          alt="theme"
           src={
             theme === ""
               ? require("../../assets/images/darkButton.png")

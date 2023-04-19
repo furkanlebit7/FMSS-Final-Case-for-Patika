@@ -4,8 +4,8 @@ import { createBrowserRouter } from "react-router-dom";
 //COMPONENTS
 import App from "../App";
 import HomePage from "../pages/HomePage";
-import DenemePage from "../pages/DenemePage";
 import ErrorPage from "../pages/ErrorPage";
+import Starships from "../pages/StarShips";
 
 const router = createBrowserRouter([
   {
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "deneme",
-        element: <DenemePage />,
+        path: "starships",
+        element: <Starships />,
       },
     ],
   },
