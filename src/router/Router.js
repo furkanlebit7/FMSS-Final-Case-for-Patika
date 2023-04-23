@@ -6,6 +6,8 @@ import App from "../App";
 import HomePage from "../pages/HomePage";
 import ErrorPage from "../pages/ErrorPage";
 import Starships from "../pages/StarShips";
+import StarshipDetail from "../pages/StarshipDetail";
+import About from "../pages/About";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
       {
         path: "starships",
         element: <Starships />,
+      },
+      {
+        path: "gallery",
+        element: <About />,
+      },
+      {
+        path: "starship/:id",
+        element: <StarshipDetail />,
       },
       {
         path: "*",
