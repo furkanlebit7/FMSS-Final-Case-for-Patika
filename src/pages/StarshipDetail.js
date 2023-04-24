@@ -1,8 +1,14 @@
-import { useQuery } from "@tanstack/react-query";
+// PACKAGES
 import React from "react";
+import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router-dom";
-import { fetchStarship } from "../services/StarWarsService";
+
+//COMPONENTS
 import Loading from "../components/Loading";
+import InformationBox from "../components/ui/InformationBox";
+
+//SERVICES
+import { fetchStarship } from "../services/StarWarsService";
 
 const StarshipDetail = () => {
   //gets id from url
@@ -35,60 +41,22 @@ const StarshipDetail = () => {
         {data.name}
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
-          <span className="font-semibold">Model :</span>
-          <p className="bg-white dark:bg-darkMain p-2 rounded">{data.model}</p>
-        </div>
-        <div>
-          <span className="font-semibold">Passengers</span>
-          <p className="bg-white dark:bg-darkMain p-2 rounded">
-            {data.passengers}
-          </p>
-        </div>
-        <div>
-          <span className="font-semibold">Max Atmosphering Speed</span>
-          <p className="bg-white dark:bg-darkMain p-2 rounded">
-            {data.max_atmosphering_speed}
-          </p>
-        </div>
-        <div>
-          <span className="font-semibold">Manufacturer</span>
-          <p className="bg-white dark:bg-darkMain p-2 rounded">
-            {data.manufacturer}
-          </p>
-        </div>
-        <div>
-          <span className="font-semibold">Crew</span>
-          <p className="bg-white dark:bg-darkMain p-2 rounded">{data.crew}</p>
-        </div>
-        <div>
-          <span className="font-semibold">Cargo Capacity</span>
-          <p className="bg-white dark:bg-darkMain p-2 rounded">
-            {data.cargo_capacity}
-          </p>
-        </div>
-        <div>
-          <span className="font-semibold">Consumables</span>
-          <p className="bg-white dark:bg-darkMain p-2 rounded">
-            {data.consumables}
-          </p>
-        </div>
-        <div>
-          <span className="font-semibold">Hyperdrive Rating</span>
-          <p className="bg-white dark:bg-darkMain p-2 rounded">
-            {data.hyperdrive_rating}
-          </p>
-        </div>
-        <div>
-          <span className="font-semibold">MGLT</span>
-          <p className="bg-white dark:bg-darkMain p-2 rounded">{data.MGLT}</p>
-        </div>
-        <div>
-          <span className="font-semibold">Starship Class</span>
-          <p className="bg-white dark:bg-darkMain p-2 rounded">
-            {data.starship_class}
-          </p>
-        </div>
+        <InformationBox name={"Model"} tag={data.model} />
+        <InformationBox name={"Passengers"} tag={data.passengers} />
+        <InformationBox
+          name={"Max Atmosphering Speed"}
+          tag={data.max_atmosphering_speed}
+        />
+        <InformationBox name={"Manufacturer"} tag={data.manufacturer} />
+        <InformationBox name={"Crew"} tag={data.crew} />
+        <InformationBox name={"Cargo Capacity"} tag={data.cargo_capacity} />
+        <InformationBox name={"Consumables"} tag={data.consumables} />
+        <InformationBox
+          name={"Hyperdrive Rating"}
+          tag={data.hyperdrive_rating}
+        />
+        <InformationBox name={"MGLT"} tag={data.MGLT} />
+        <InformationBox name={"Starship Class"} tag={data.starship_class} />
       </div>
     </div>
   );

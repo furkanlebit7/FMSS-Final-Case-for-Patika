@@ -1,10 +1,16 @@
-import { useInfiniteQuery } from "@tanstack/react-query";
+// PACKAGES
 import React, { useState } from "react";
+import { useInfiniteQuery } from "@tanstack/react-query";
+
+//COMPONENTS
 import Loading from "../components/Loading";
-import { fetchStarships } from "../services/StarWarsService";
 import StarshipCard from "../components/StarshipCard";
 import LoadMoreButton from "../components/LoadMoreButton";
 import SearchInput from "../components/SearchInput";
+
+//SERVICES
+import { fetchStarships } from "../services/StarWarsService";
+
 const StarShips = () => {
   const [text, setText] = useState("");
 

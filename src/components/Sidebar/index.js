@@ -1,7 +1,11 @@
+// PACKAGES
 import React, { useState } from "react";
-import { TfiClose } from "react-icons/tfi";
+
+//ICONS
 import { RxHamburgerMenu } from "react-icons/rx";
-import { Link } from "react-router-dom";
+import { TfiClose } from "react-icons/tfi";
+import SidebarLink from "../ui/SidebarLink";
+
 const Sidebar = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -23,33 +27,13 @@ const Sidebar = () => {
           <TfiClose className="" />
         </button>
         <ul className="items-center flex flex-col gap-20 flex-1 justify-center text-black dark:text-white  ">
-          <li>
-            <Link
-              to="/"
-              onClick={() => setToggle(false)}
-              className="font-mono font-bold text-lg"
-            >
-              HOME
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/starships"
-              onClick={() => setToggle(false)}
-              className="font-mono font-bold text-lg"
-            >
-              STARSHIPS
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/qa"
-              onClick={() => setToggle(false)}
-              className="font-mono font-bold text-lg"
-            >
-              Q & A
-            </Link>
-          </li>
+          <SidebarLink to={"/"} name={"HOME"} setToggle={setToggle} />
+          <SidebarLink
+            to={"/starships"}
+            name={"STARSHIPS"}
+            setToggle={setToggle}
+          />
+          <SidebarLink to={"/qa"} name={"Q & A"} setToggle={setToggle} />
         </ul>
       </div>
     </div>

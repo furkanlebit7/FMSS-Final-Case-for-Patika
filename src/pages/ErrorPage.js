@@ -1,4 +1,6 @@
+// PACKAGES
 import { Link } from "react-router-dom";
+//ICONS
 import { BsArrowRight } from "react-icons/bs";
 
 export default function ErrorPage() {

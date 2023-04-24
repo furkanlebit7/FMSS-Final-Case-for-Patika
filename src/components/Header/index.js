@@ -1,12 +1,18 @@
+//PACKAGES
 import React, { useEffect } from "react";
-import Sidebar from "../Sidebar";
 import { useDispatch, useSelector } from "react-redux";
-import { setTheme } from "../../redux/slices/themeSlice";
 import { Link } from "react-router-dom";
+
+//COMPONENTS
+import Sidebar from "../Sidebar";
+
+//SLICES
+import { setTheme } from "../../redux/slices/themeSlice";
 
 const Header = () => {
   const dispatch = useDispatch();
   const theme = useSelector((state) => state.theme.theme);
+  //sets theme based on if redux has theme
   useEffect(() => {
     theme
       ? document.documentElement.classList.add("dark")

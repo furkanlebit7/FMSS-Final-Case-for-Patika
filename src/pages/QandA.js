@@ -1,5 +1,8 @@
-import { Accordion } from "flowbite-react";
+//PACKAGES
 import React from "react";
+import { Accordion } from "flowbite-react";
+
+//HELPERS
 import QandA from "../helpers/QandAList";
 
 const Gallery = () => {

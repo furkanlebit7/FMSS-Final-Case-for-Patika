@@ -1,3 +1,4 @@
+//Questions and Answers for QA page
 const QandA = [
   {
     text: "What year was the first Star Wars movie released?",

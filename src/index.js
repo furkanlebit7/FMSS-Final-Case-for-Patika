@@ -1,13 +1,20 @@
+//PACKAGES
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { RouterProvider } from "react-router-dom";
-import router from "./router/Router";
-import { Provider } from "react-redux";
-import { store } from "./redux/store";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import { Provider } from "react-redux";
+
+//ROUTERS
+import router from "./router/Router";
+
+//REDUX
+import { store } from "./redux/store";
+
+//STYLES
+import "./index.css";
 
 const queryClient = new QueryClient({
   defaultOptions: {

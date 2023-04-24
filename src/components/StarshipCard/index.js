@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const StarshipCard = ({ starship }) => {
   return (
     <Link
-      //direct to link that last 2 words of coming link
+      //direct to link that last 2 characters of coming link
       to={`/starship/${starship.url.slice(32, -1)}`}
       className="border p-3 rounded flex items-center flex-col border-gray-300 shadow-xl dark:border-gray-600 dark:bg-darkMain "
     >
