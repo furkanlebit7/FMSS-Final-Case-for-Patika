@@ -1,71 +1,65 @@
-# Getting Started with Create React App
+# ⛅ STAR WARS App with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Patika.dev FMSS Frontend Developer Practicum Final Case : STAR WARS App
 
-## Available Scripts
+## ➡️ Live Demo
 
-In the project directory, you can run:
+- no share permission for demo right now
 
-### `npm start`
+## :key: Get API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[https://swapi.dev/](https://swapi.dev/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- No Need API Key.
+- REACT_APP_BASE_API=base api here
 
-### `npm test`
+API Links <br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [https://swapi.dev/api/starships/](https://swapi.dev/api/starships/)
+- [https://swapi.dev/api/starships/:id](https://swapi.dev/api/starships/9)
 
-### `npm run build`
+## :computer: Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository and install its features.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm install or yarn install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Create .env and add the follow key.
 
-### `npm run eject`
+```
+add project .env file and the follow key (REACT_APP_BASE_API=base api here)
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Use the project locally (localhost).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start or yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+:heavy_check_mark: Dark and light theme <br />
+:heavy_check_mark: Redux state management<br />
+:heavy_check_mark: React Query data management<br />
+:heavy_check_mark: List all Starships<br />
+:heavy_check_mark: Search by starship name<br />
+:heavy_check_mark: Local Storage Management<br />
 
-## Learn More
+## :fire: Technologies and Libraries
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+:point_right: React.js <br />
+:point_right: React Hooks <br />
+:point_right: Redux <br />
+:point_right: Axios <br />
+:point_right: Redux Toolkit <br />
+:point_right: Tailwind CSS <br />
+:point_right: React-Icons <br />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Screenshot
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# FMSS-Final-Case-for-Patika" 
+![Screenshot_1](https://user-images.githubusercontent.com/59422278/208936421-594b0b18-dd2a-469d-9d7d-5b71a0b6ee7c.png)
+![Screenshot_2](https://user-images.githubusercontent.com/59422278/208936427-93f9f64c-4fe3-4288-84ea-a16bf32f36e8.png)
+![Screenshot_3](https://user-images.githubusercontent.com/59422278/208936430-08cc3cd6-9d49-41a6-93ad-20afbc3f6ec3.png)
+![Screenshot_4](https://user-images.githubusercontent.com/59422278/208936433-b5fa7340-bbd3-425a-acf8-886ab9ed525b.png)
