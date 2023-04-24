@@ -1,4 +1,4 @@
-# ⛅ STAR WARS App with React
+# ⚔️ STAR WARS App with React
 
 - Patika.dev FMSS Frontend Developer Practicum Final Case : STAR WARS App
 
