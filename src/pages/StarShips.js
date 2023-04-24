@@ -31,7 +31,7 @@ const StarShips = () => {
   return (
     <div>
       <SearchInput setText={setText} text={text} />
-      <div className="grid grid-cols-4 lg:grid-cols-5 gap-5 gap-y-10 overflow-hidden h-full py-8 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 gap-y-10 overflow-hidden h-full py-8 ">
         {data.pages.map((page, i) => (
           <React.Fragment key={i}>
             {page.results.map((starship, i) => {

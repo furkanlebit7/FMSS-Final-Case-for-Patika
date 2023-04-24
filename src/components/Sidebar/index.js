@@ -7,7 +7,7 @@ const Sidebar = () => {
 
   //on menuClass if you wanna short sidebar(not fullscreen) make w-screen to w-80 or something like that
   const menuClass =
-    "absolute h-screen bg-white top-0 w-screen  flex flex-col p-10 py-8 ease-in-out duration-300 transition-all shadow-lg dark:bg-darkMain z-20";
+    "absolute h-screen bg-white top-0 w-screen md:w-1/2 lg:w-1/3  flex flex-col p-10 py-8 ease-in-out duration-300 transition-all shadow-lg dark:bg-darkMain z-20";
   return (
     <div>
       <button onClick={() => setToggle(true)} className="md:text-3xl text-xl ">
@@ -34,15 +34,6 @@ const Sidebar = () => {
           </li>
           <li>
             <Link
-              to="/gallery"
-              onClick={() => setToggle(false)}
-              className="font-mono font-bold text-lg"
-            >
-              ABOUT
-            </Link>
-          </li>
-          <li>
-            <Link
               to="/starships"
               onClick={() => setToggle(false)}
               className="font-mono font-bold text-lg"
@@ -52,11 +43,11 @@ const Sidebar = () => {
           </li>
           <li>
             <Link
-              to="/gallery"
+              to="/qa"
               onClick={() => setToggle(false)}
               className="font-mono font-bold text-lg"
             >
-              Q&A
+              Q & A
             </Link>
           </li>
         </ul>

@@ -7,7 +7,7 @@ import HomePage from "../pages/HomePage";
 import ErrorPage from "../pages/ErrorPage";
 import Starships from "../pages/StarShips";
 import StarshipDetail from "../pages/StarshipDetail";
-import About from "../pages/About";
+import QandA from "../pages/QandA";
 
 const router = createBrowserRouter([
   {
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
         element: <Starships />,
       },
       {
-        path: "gallery",
-        element: <About />,
+        path: "qa",
+        element: <QandA />,
       },
       {
         path: "starship/:id",
