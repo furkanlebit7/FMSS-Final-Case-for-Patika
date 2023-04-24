@@ -52,14 +52,15 @@ npm start or yarn start
 :point_right: React.js <br />
 :point_right: React Hooks <br />
 :point_right: Redux <br />
-:point_right: Axios <br />
 :point_right: Redux Toolkit <br />
+:point_right: Axios <br />
+:point_right: React Query <br />
 :point_right: Tailwind CSS <br />
 :point_right: React-Icons <br />
 
 ## Screenshot
 
-![Screenshot_1](https://user-images.githubusercontent.com/59422278/208936421-594b0b18-dd2a-469d-9d7d-5b71a0b6ee7c.png)
-![Screenshot_2](https://user-images.githubusercontent.com/59422278/208936427-93f9f64c-4fe3-4288-84ea-a16bf32f36e8.png)
-![Screenshot_3](https://user-images.githubusercontent.com/59422278/208936430-08cc3cd6-9d49-41a6-93ad-20afbc3f6ec3.png)
-![Screenshot_4](https://user-images.githubusercontent.com/59422278/208936433-b5fa7340-bbd3-425a-acf8-886ab9ed525b.png)
+![starwars1](https://user-images.githubusercontent.com/59422278/234108492-e8ca095b-5f34-4c14-8288-d92605414b17.png)
+![starwars2](https://user-images.githubusercontent.com/59422278/234108504-fb2a359c-b56b-41c0-a32e-625746425665.png)
+![starwars3](https://user-images.githubusercontent.com/59422278/234108515-1504a637-4ee7-4f7f-931c-6c643e1ec08a.png)
+![starwars4](https://user-images.githubusercontent.com/59422278/234108520-915d5c89-80e4-4237-9cbd-2ade612a3bcb.png)
