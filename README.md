@@ -63,4 +63,5 @@ npm start or yarn start
 ![starwars1](https://user-images.githubusercontent.com/59422278/234108492-e8ca095b-5f34-4c14-8288-d92605414b17.png)
 ![starwars2](https://user-images.githubusercontent.com/59422278/234108504-fb2a359c-b56b-41c0-a32e-625746425665.png)
 ![starwars3](https://user-images.githubusercontent.com/59422278/234108515-1504a637-4ee7-4f7f-931c-6c643e1ec08a.png)
-![starwars4](https://user-images.githubusercontent.com/59422278/234108520-915d5c89-80e4-4237-9cbd-2ade612a3bcb.png)
+![starwars4](https://user-images.githubusercontent.com/59422278/234352304-70414cb8-62d2-412a-a7bb-f4d52f4198c0.png)
+![starwars5](https://user-images.githubusercontent.com/59422278/234108520-915d5c89-80e4-4237-9cbd-2ade612a3bcb.png)
